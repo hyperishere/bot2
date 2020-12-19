@@ -1,0 +1,34 @@
+Merhaba Arkadaslar, botunuzda bir sorun olustuysa buraya bakarak bilgilenebilirsiniz.
+
+Token Hatasi;
+
+Token hatasi veriyorsa, sikinti tokeninizdedir. "Bot tokenini dogru girdiginden emin ol amcaoglu?!" 
+Bu hatayi görüyorsaniz tokeninizde herhangi bir boslugun olup olmadigini kontrol edin.
+
+Rol degistirmeme hatasi;
+
+Eger bot rolünüzü rainbow yapmiyor ise, Botun "Aish Rainbow" Rolününün, rengi rainbow olsun istediginiz rolün üstünde
+oldugundan emin olun. Onu da kontrol ettiyseniz ve hala çalismiyor ise, (bazen bir süre sonra çalismamazlik yapabilir.) 
+botunuz askiya alinmistir. Korkmayin 1 - 2 Saate denetim kaydi kirlettigi için cezasi biter ve devam eder. Bazen de 
+Botun reload sistemi ping yapmasin diye belirli olmayan saatlerde kendini refreshler. Bu herzaman olmaz çok nadir olur
+o refreshledikten sonra rainbow durur kontrol edin ve tekrardan komutunuzla rainbowu baslatin.
+
+Komut nedir;
+
+Default yani normalinde içinde aktif olan komut "-c4nkrdsm : Rainbow'u baslatir." - "-c3nkardsm - Rainbow'u durdurur"
+bunlardir.
+
+Renkleri nasil degistiririz;
+
+Sizler için tamamen türkçelestirilmis ayarlar.json dosyasina girerek 7. Satirdan baslayan "rainbowrolleri" kisminin
+altindaki renk kodlari kismindaki renkleri degistirebilirsiniz. Nereden bulacagim derseniz google'ye "Html rainbow
+Renk kodlari" yazarsaniz karsiniza çikacaktir.
+
+JSON At position 357 Hatasi;
+
+Bu hata baslat.bat dosyasini açtiginda karsiniza geliyor ise, botunuzun yine 7. Satiri kismindaki rainbowrolleri 
+bölümünde bir sorun çikmis demektedir. merak etmeyin, hemen düzeltebiliriz! oradaki kodlarin sonlarinda
+"#324234", gördügünüz gibi bu sekilde olmalidir. Eger virgül yok ise, o hatayi vermesi dogaldir. Sadece son kodun
+sonunda virgül olmamalidir.
+
+Bir sorununuz olursa, HexTeL#7947 Discord adresinden bana ulasabilirsiniz.
